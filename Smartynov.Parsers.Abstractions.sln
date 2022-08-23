@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartynov.Parsers.Abstractions", "Smartynov.Parsers.Abstractions\Smartynov.Parsers.Abstractions.csproj", "{3C21E958-3A18-4639-85F7-9D37D1E8765C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartynov.Parsers.Envs", "Smartynov.Parsers.Envs\Smartynov.Parsers.Envs.csproj", "{4F87D835-69EA-49CF-AFEF-F98F4F2DA24B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C21E958-3A18-4639-85F7-9D37D1E8765C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C21E958-3A18-4639-85F7-9D37D1E8765C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C21E958-3A18-4639-85F7-9D37D1E8765C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C21E958-3A18-4639-85F7-9D37D1E8765C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F87D835-69EA-49CF-AFEF-F98F4F2DA24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F87D835-69EA-49CF-AFEF-F98F4F2DA24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F87D835-69EA-49CF-AFEF-F98F4F2DA24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F87D835-69EA-49CF-AFEF-F98F4F2DA24B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
