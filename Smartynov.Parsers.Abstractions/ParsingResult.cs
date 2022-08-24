@@ -2,6 +2,8 @@
 
 public class ParsingResult<TObject>
 {
+    private TObject? _value;
+
     public ParsingResult(TObject result)
     {
         Value = result;
@@ -16,7 +18,13 @@ public class ParsingResult<TObject>
     }
 
     public bool IsFaulted { get; }
-    public TObject? Value { get; }
+
+    public TObject? Value
+    {
+        get => IsFaulted ? throw Exception! : _value;
+        private set => _value = value;
+    }
+
     public ParsingException? Exception { get; }
 
     public void StartWithResult(Action<TObject> action)
